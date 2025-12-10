@@ -1,7 +1,14 @@
 "use client"
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
-export default function Navbaritem({title,param}) {
+
+interface navbaritems{
+  title : any,
+  param: any
+}
+
+
+export default function Navbaritem({title,param}:navbaritems) {
   const searchParams= useSearchParams()
   const genre=searchParams.get('genre')
   return (
