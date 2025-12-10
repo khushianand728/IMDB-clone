@@ -6,7 +6,7 @@ export default function About() {
       <h1 className="text-3xl font-bold text-amber-500 ml-1 mt-6">About</h1>
        <p className="text-xl"> Welcome to our movie database website! We are a team of passionate movie
         enthusiasts who have come together to create a one-stop destination for
-        all your movie-related needs.</p>
+        all your movie-related needs. </p>
 
         <p className="text-xl">Our website is designed to provide you with a comprehensive database of
         movies from all around the world, along with the latest news, reviews,
